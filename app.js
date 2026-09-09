@@ -16,14 +16,14 @@ app.get('/objetivos', (req, res) => {
     res.json([
         {
             name: 'Pedro Sánchez',
-            codname: 'OBJ-001',
+            codename: 'OBJ-001',
             status: 'MONITORED',
             riskLevel: 'CRITICAL'
         },
         {
             name: 'Isabel Díaz Ayuso',
-            codname: 'OBJ-002',
-            status: 'MONITORIED',
+            codename: 'OBJ-002',
+            status: 'MONITORED',
             reisklevel: 'HIGH'
         }
     ]);
