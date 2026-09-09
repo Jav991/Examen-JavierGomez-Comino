@@ -1,4 +1,4 @@
-Services:
+services:
   phantom:
     build: .
     ports:
