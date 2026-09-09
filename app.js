@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.get('/', (req, res) =>{
     res.json({
-        system: 'PANTOM-01',
+        system: 'PHANTOM-01',
         status: 'ONLINE',
         envioronment: 'SIMULATION',
         version: '1.0.0' 
@@ -18,7 +18,7 @@ app.get('/objetivos', (req, res) => {
             name: 'Pedro Sánchez',
             codname: 'OBJ-001',
             status: 'MONITORED',
-            riskLevel: 'HIGH'
+            riskLevel: 'CRITICAL'
         },
         {
             name: 'Isabel Díaz Ayuso',
