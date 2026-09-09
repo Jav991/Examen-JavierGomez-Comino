@@ -24,7 +24,7 @@ app.get('/objetivos', (req, res) => {
             name: 'Isabel Díaz Ayuso',
             codename: 'OBJ-002',
             status: 'MONITORED',
-            reisklevel: 'HIGH'
+            riskLevel: 'HIGH'
         }
     ]);
 });
