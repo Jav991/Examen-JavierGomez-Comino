@@ -1,5 +1,5 @@
 const express = require('express');
-var prueba = "";
+
 
 const app = express();
 const PORT = 3000;
