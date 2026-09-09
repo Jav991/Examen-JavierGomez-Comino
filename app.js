@@ -1,4 +1,5 @@
 const express = require('express');
+var prueba = "";
 
 const app = express();
 const PORT = 3000;
@@ -20,6 +21,7 @@ app.get('/objetivos', (req, res) => {
             status: 'MONITORED',
             riskLevel: 'CRITICAL'
         },
+        
         {
             name: 'Isabel Díaz Ayuso',
             codename: 'OBJ-002',
