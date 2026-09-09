@@ -1,0 +1,12 @@
+{
+    "name": "phantom-intelligence",
+    "version": "1.0.0",
+    "description": "Microservicio para la prueba de MF0490_3",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
